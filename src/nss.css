@@ -1,0 +1,229 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;  /* Light background for contrast */
+    color: #333;  /* Default text color */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    background-color: #c0392b;  /* Red color for header */
+    padding: 1rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+
+header .logo h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Container and Sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+h1, h2 {
+    color: #c0392b;  /* Red for section titles */
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+/* Profile Picture */
+.profile-picture img {
+    width: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 4px solid #c0392b;  /* Red border around profile picture */
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #c0392b;  /* Red background for table header */
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #333;  /* Default icon color */
+}
+
+.social-links a:hover {
+    color: #c0392b;  /* Red color on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333;  /* Black footer background */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+.dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.toggle-switch {
+    position: relative;
+    width: 50px;
+    height: 24px;
+    margin-left: 10px;
+}
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 24px;
+}
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+input:checked + .slider {
+    background-color: #444;
+}
+input:checked + .slider::before {
+    transform: translateX(26px);
+}     body {
+    background-color: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+.dark-mode header, .dark-mode footer {
+    background-color: #222;
+}
+.dark-mode table {
+background-color: #222;
+color: white;
+border: 1px solid white;
+}
+.dark-mode th {
+background-color: #333;
+color: white;
+border: 1px solid white;
+}
+.dark-mode td {
+background-color: #222;
+border: 1px solid white;
+}
+
+.dark-mode a {
+    color: lightblue;
+}
+.dark-mode button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.dark-mode button:hover {
+    background-color: #555;
+}
+.dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
