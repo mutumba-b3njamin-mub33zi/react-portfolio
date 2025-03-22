@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutumba Benjamin Mubeezi - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="nss.css">
+    <style>
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mutumba Benjamin Mubeezi</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#career-goals">Career Goals</a></li>
+                <li><a href="#personal-details">Personal Details</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Dark Mode Button -->
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</button>
+        <label class="dark-mode-toggle">
+            Dark Mode
+            <div class="toggle-switch">
+                <input type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()">
+                <span class="slider"></span>
+            </div>
+        </label>
+        
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container">
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h1>About Me</h1>
+            <p>I am a passionate and dedicated student pursuing a Computer Science degree...</p>
+        </section>
+
+        <!-- Career Goals Section -->
+        <section id="career-goals" class="section">
+            <h2>Career Goals</h2>
+            <p>My career goals are to become a successful software engineer...</p>
+        </section>
+
+        <!-- Personal Details Section -->
+        <section id="personal-details" class="section">
+            <h2>Personal Details</h2>
+            <ul>
+                <li><strong>Full Name:</strong> Mutumba Benjamin Mubeezi</li>
+                <li><strong>Student ID:</strong> B24245 S23B23/010</li>
+                <li><strong>Course and Year:</strong> Computer Science Year2</li>
+                <li><strong>Hobbies and Interests:</strong> Art and Gaming</li>
+            </ul>
+        </section>
+
+        <!-- Profile Picture Section -->
+        <section class="profile-picture">
+            <h2>Profile Picture</h2>
+            <img src="WhatsApp Image 2025-02-08 at 14.54.39_70894c6d.jpg" alt="Mutumba Benjamin Mubeezi" class="about-img">
+        </section>
+
+        <!-- Hobby Video Section -->
+        <section id="hobbies" class="section">
+            <h2>Hobbies</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QdBZY2fkU-0?si=CXs-mBlslfLKm6_-" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <!-- Results Table Section -->
+        <section class="section">
+            <h2>Year 1 Semester 1 Results</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Title</th>
+                        <th>Grade</th>
+                        <th>Credit Units</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Studying</td>
+                        <td>73</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Winning</td>
+                        <td>98</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Grinding</td>
+                        <td>100</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mogging</td>
+                        <td>99</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Bulking</td>
+                        <td>67</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Social Links Section -->
+        <section>
+            <h2>Links and Navigation</h2>
+            <ul class="social-links">
+                <li><a href="https://www.artstation.com/?sort_by=community&dimension=all" target="_blank"><i class="fab fa-artstation"></i></a></li>
+                <li><a href="https://ucu.ac.ug/" target="_blank"><i class="fas fa-university"></i></a></li>
+            </ul>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section id="contact" class="section">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> <a href="mailto:mutumbab518@gmail.com">mutumbab518@gmail.com</a></p>
+            <ul class="social-links">
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://x.com/MutumbaBen6939" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/mutumba-b3njamin-mub33zi" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mutumba Benjamin Mubeezi | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript for Dark Mode -->
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+        function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+        const isDarkMode = document.body.classList.contains("dark-mode");
+        document.getElementById("darkModeToggle").checked = isDarkMode;
+    }
+    </script>
+
+</body>
+</html>
